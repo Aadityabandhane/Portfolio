@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
 
+
 function Home() {
   return (
     <section>
@@ -30,12 +31,12 @@ function Home() {
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
+            <Col md={5} style={{ paddingBottom: 40 }}>
               <img
                 src={homeLogo}
                 alt="home pic"
                 className="img-fluid"
-                style={{ maxHeight: "500px", width:"300px", padding:"20px" }}
+                style={{ maxHeight: "550px", width:"350px", padding:"20px"  }}
               />
             </Col>
           </Row>
